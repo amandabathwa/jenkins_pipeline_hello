@@ -1,6 +1,9 @@
 node {
-   stage 'Stage 1'
+   stage 'Stage 1'{
+           steps{
    		sh 'df -h'
+          }
+    }
    
    		
 }
