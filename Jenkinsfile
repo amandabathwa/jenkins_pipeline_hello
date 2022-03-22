@@ -1,6 +1,6 @@
 node {
    stage 'Stage 1'
-   		sh 'du'
+   		sh 'df -h'
    
    		
 }
