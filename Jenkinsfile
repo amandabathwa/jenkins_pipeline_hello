@@ -3,7 +3,7 @@ pipeline {
    stages{
        stage('Stage 1'){
            steps{
-   		sh 'df -h'
+   		sh 'python test.py'
            }
        }
    }
